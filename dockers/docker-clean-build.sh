@@ -16,11 +16,11 @@ rsync -av --exclude="._*" --exclude="_*.*" --exclude=".git" \
   "$TEMP_DIR/OntoTradeHomePage/"
 
 rsync -av --exclude="._*" --exclude="_*.*" \
-  /Volumes/samsungSSD/kelly_project/homepage/docker/ \
-  "$TEMP_DIR/docker/"
+  /Volumes/samsungSSD/kelly_project/homepage/dockers/ \
+  "$TEMP_DIR/dockers/"
 
 # 임시 디렉토리에서 빌드
-cd "$TEMP_DIR/docker"
+cd "$TEMP_DIR/dockers"
 
 echo "🐳 Building from clean copy..."
 docker-compose up --build

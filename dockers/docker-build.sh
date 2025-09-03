@@ -7,7 +7,7 @@ find /Volumes/samsungSSD/kelly_project/homepage -name "._*" -delete 2>/dev/null
 find /Volumes/samsungSSD/kelly_project/homepage -name "_*.*" -delete 2>/dev/null
 
 echo "🐳 Starting Docker build..."
-cd /Volumes/samsungSSD/kelly_project/homepage/docker
+cd /Volumes/samsungSSD/kelly_project/homepage/dockers
 
 # Docker build with no-cache option
 docker-compose build --no-cache

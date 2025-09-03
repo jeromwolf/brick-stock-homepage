@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(git clone:*)",
+      "Bash(rm:*)",
+      "Bash(GIT_INDEX_FILE=/tmp/git-index-$$ git clone https://github.com/jeromwolf/OntoTradeHomePage.git)",
+      "Bash(wget:*)",
+      "Bash(unzip:*)",
+      "Bash(mv:*)",
+      "Bash(mkdir:*)",
+      "Bash(chmod:*)",
+      "Bash(find:*)",
+      "Bash(xattr:*)",
+      "Bash(docker build:*)",
+      "Bash(dot_clean:*)",
+      "Bash(docker system prune:*)",
+      "Bash(docker-compose up:*)",
+      "Bash(docker-compose:*)",
+      "Bash(cp:*)",
+      "Bash(docker stop:*)",
+      "Bash(docker rm:*)",
+      "Bash(docker network rm:*)",
+      "Bash(true)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git remote remove:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)"
+    ],
+    "deny": []
+  }
+}
